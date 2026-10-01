@@ -1,0 +1,20 @@
+{
+  "directory": "./www",
+  "rate": 1,
+  "debug": false,
+  "logging": {
+    "critical": [
+      "*.php"
+    ],
+    "warn": [
+      "*.js",
+      "*.css"
+    ],
+    "info": [
+      "*.txt"
+    ]
+  },
+  "isolation": [
+    "*.php"
+  ]
+}
